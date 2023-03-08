@@ -1,0 +1,599 @@
+@font-face {
+  font-family: "wworld";
+  src: url("fonts/WizardWorldSimplified-Kxr7.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "xefora";
+  src: url("fonts/Xefora-vp34.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "magicschool2";
+  src: url("fonts/MagicSchoolTwo.ttf")
+    format("truetype");
+  src: url("fonts/MagicSchoolTwo.wof/")
+    format("woff");
+  src: url("fonts/MagicSchoolTwo.woff2")
+    format("woff2");
+}
+
+body {
+  background: url("miscellaneous/background11.png");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url("miscellaneous/wand-removebg-preview.png"), auto;
+
+  text-align: center;
+}
+
+a,
+button,
+i {
+  cursor: url("miscellaneous/wand-removebg-preview.png"), auto;
+}
+
+
+/* navbar css */
+
+#title {
+  margin: 0 20px 0 20px;
+}
+.navv {
+  border: solid #d9d9d9 3px;
+  margin-top: 20px;
+}
+.nav-link {
+  font-family: "wworld";
+  font-size: 1.7rem;
+  color: white;
+}
+.nav-link:hover {
+  transform: scale(1.15);
+  text-shadow: 0 0 20px white;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.logo-img {
+  width: 130px;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.logo-img:hover {
+  transform: scale(1.15);
+}
+.tline {
+  margin-top: 50px;
+
+  width: 450px;
+}
+
+/* carousel css */
+
+#quotes {
+  border: ridge;
+  margin: 0 20px 10px 20px;
+}
+
+
+.quotes-content {
+  padding-left: 50px;
+  font-size: 3rem;
+  font-family: "wworld";
+  color: white;
+}
+.carousel-item {
+  padding: 10px;
+}
+
+.caraousel-img {
+  height: 306px;
+  max-width: 204px;
+}
+
+
+.column {
+  padding-left: 0;
+}
+.heading {
+  font-family: "wworld";
+  font-size: 5rem;
+  color: white;
+  
+}
+
+.heading:hover{
+  text-shadow: 0 0 20px white;
+  transform: scale(1.15);
+}
+
+
+
+/* novel section css  */
+
+.novel-block{
+  padding: 50px;
+  margin-top: 50px;
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  
+}
+
+#novel{
+  margin: 0 20px 10px 20px;
+}
+.novel-img{
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  width: 70%;
+}
+
+.novel-img:hover{
+  box-shadow: 0 0 100px white;
+}
+
+.novel-img-3{
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  width: 47%;
+}
+.novel-img-3:hover{
+  box-shadow: 0 0 100px white;
+}
+
+hr{
+  border-top:  dotted;
+  border-color: white;
+  opacity: 100%;
+  border-width: 10px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* character section */
+
+#character{
+  margin: 0 20px 10px 20px;
+}
+
+.char-block{
+  margin-top: 50px;
+  padding: 50px;
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  
+}
+
+.char-img{
+  width: 85%;
+}
+
+.char-img:hover{
+  transform: scale(1.25);
+}
+
+.sbtn{
+  font-family: "wworld";
+  width: 30%;
+  font-size: 3.5rem;
+  margin: 50px auto 20px;
+  border-radius: 35px;
+ 
+  
+}
+
+.sbtn:hover{
+  box-shadow: 0 0 100px white;
+  transform: scale(1.25);
+
+}
+
+/* movie section css  */
+
+.movie-block{
+  padding: 50px;
+  margin-top: 50px;
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  
+}
+
+#movie{
+  margin: 0 20px 10px 20px;
+}
+.movie-img{
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  width: 70%;
+}
+
+.movie-img:hover{
+  box-shadow: 0 0 100px white;
+}
+
+.movie-img-3{
+  border: ridge #fff 10px;
+  border-radius: 25px;
+  width: 47%;
+}
+.movie-img-3:hover{
+  box-shadow: 0 0 100px white;
+}
+/* media queries */
+
+/* media queries */
+
+/* media queries */
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+  
+  /* carousel css */
+
+  .quotes-content {
+    padding-left: 50px;
+    font-size: 1rem;
+    font-family: "wworld";
+    color: white;
+  }
+  .caraousel-img {
+    height: 60.44px;
+    max-width: 40.29px;
+  }
+  .design {
+    width: 225.39px;
+  }
+  .heading {
+    font-family: "wworld";
+    font-size: 2.56rem;
+    color: white;
+    
+  }
+
+  /* novel section css */
+
+  .novel-img{
+    border: ridge #fff 2px;
+    border-radius: 5px;
+  }
+  .novel-img-3{
+    border: ridge #fff 2px;
+    border-radius: 5px;
+  }
+  .novel-block{
+    padding: 10px;
+    border: ridge #fff 2px;
+    border-radius: 5px;
+    
+  }
+
+  /* character section */
+  .char-block{
+    padding: 10px;
+    border: ridge #fff 2px;
+    border-radius: 5px;
+    
+  }  
+
+  .sbtn{
+    font-size: 1.2rem;
+    margin: 20px auto 20px;
+  }
+ 
+    /* movie section css */
+
+    .movie-img{
+      border: ridge #fff 2px;
+      border-radius: 5px;
+    }
+    .movie-img-3{
+      border: ridge #fff 2px;
+      border-radius: 5px;
+    }
+    .movie-block{
+      padding: 10px;
+      border: ridge #fff 2px;
+      border-radius: 5px;
+      
+    }
+  
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* carousel css */
+
+  .quotes-content {
+    padding-left: 50px;
+    font-size: 1.5rem;
+    font-family: "wworld";
+    color: white;
+  }
+  .caraousel-img {
+    height: 90.6666px;
+    max-width: 60.44px;
+  }
+
+  .design {
+    width: 225.39px;
+  }
+  .heading {
+    font-family: "wworld";
+    font-size: 2.56rem;
+    color: white;
+    
+  }
+
+  /* novel section css */
+
+  
+  .novel-img{
+    border: ridge #fff 4px;
+    border-radius: 10px;
+  }
+  .novel-img-3{
+    border: ridge #fff 4px;
+    border-radius: 10px;
+  }
+  .novel-block{
+    padding: 20px;
+    border: ridge #fff 4px;
+    border-radius: 10px;
+    
+  }
+   /* character section */
+   .char-block{
+    padding: 20px;
+    border: ridge #fff 4px;
+    border-radius: 10px;
+    
+  }
+  .sbtn{
+    font-size: 1.6rem;
+    margin: 20px auto 20px;
+  }
+
+   /* movie section css */
+
+  
+   .movie-img{
+    border: ridge #fff 4px;
+    border-radius: 10px;
+  }
+  .movie-img-3{
+    border: ridge #fff 4px;
+    border-radius: 10px;
+  }
+  .movie-block{
+    padding: 20px;
+    border: ridge #fff 4px;
+    border-radius: 10px;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* carousel css */
+
+  .quotes-content {
+    padding-left: 50px;
+    font-size: 2rem;
+    font-family: "wworld";
+    color: white;
+  }
+  .caraousel-img {
+    height: 136px;
+    max-width: 90.66px;
+  }
+
+  .design {
+    width: 288.5px;
+  }
+  .heading {
+    font-family: "wworld";
+    font-size: 3.31rem;
+    color: white;
+    
+  }
+
+  /* novel section css */
+
+  .novel-img{
+    border: ridge #fff 6px;
+    border-radius: 15px;
+  }
+  .novel-img-3{
+    border: ridge #fff 6px;
+    border-radius: 15px;
+  }
+  .novel-block{
+    padding: 30px;
+    border: ridge #fff 6px;
+    border-radius: 15px;
+    
+  }
+   /* character section */
+  .char-block{
+    padding: 30px;
+    border: ridge #fff 6px;
+    border-radius: 15px;
+    
+  }
+  .sbtn{
+    font-size: 2.2rem;
+    margin: 30px auto 20px;
+  }
+
+   /* movie section css */
+
+   .movie-img{
+    border: ridge #fff 6px;
+    border-radius: 15px;
+  }
+  .movie-img-3{
+    border: ridge #fff 6px;
+    border-radius: 15px;
+  }
+  .movie-block{
+    padding: 30px;
+    border: ridge #fff 6px;
+    border-radius: 15px;
+    
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  /* carousel css */
+
+  .quotes-content {
+    padding-left: 50px;
+    font-size: 2.5rem;
+    font-family: "wworld";
+    color: white;
+  }
+  .caraousel-img {
+    height: 204px;
+    max-width: 136px;
+  }
+  .design {
+    width: 372.2px;
+  }
+  .heading {
+    font-family: "wworld";
+    font-size: 4.13rem;
+    color: white;
+    
+  }
+
+  /* novel section css */
+
+  .novel-img{
+    border: ridge #fff 8px;
+    border-radius: 20px;
+  }
+  .novel-img-3{
+    border: ridge #fff 8px;
+    border-radius: 20px;
+  }
+  .novel-block{
+    padding: 40px;
+    border: ridge #fff 8px;
+    border-radius: 20px;
+    
+  }
+   /* character section */
+  .char-block{
+    padding: 40px;
+    border: ridge #fff 8px;
+    border-radius: 20px;
+    
+  }
+  .sbtn{
+    font-size: 2.8rem;
+    margin: 40px auto 20px;
+  }
+ /* movie section css */
+
+ .movie-img{
+  border: ridge #fff 8px;
+  border-radius: 20px;
+}
+.movie-img-3{
+  border: ridge #fff 8px;
+  border-radius: 20px;
+}
+.movie-block{
+  padding: 40px;
+  border: ridge #fff 8px;
+  border-radius: 20px;
+  
+}
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /* carousel css */
+
+  .quotes-content {
+    padding-left: 50px;
+    font-size: 3rem;
+    font-family: "wworld";
+    color: white;
+  }
+  .caraousel-img {
+    height: 306px;
+    max-width: 204px;
+  }
+  .design {
+    width: 450px;
+  }
+  .heading {
+    font-family: "wworld";
+    font-size: 5rem;
+    color: white;
+    
+  }
+
+  /* novel section css */
+
+  .novel-img{
+    border: ridge #fff 10px;
+    border-radius: 25px;
+  }
+
+  .novel-img-3{
+    border: ridge #fff 10px;
+    border-radius: 25px;
+  }
+  
+  .novel-block{
+    padding: 50px;
+    border: ridge #fff 10px;
+    border-radius: 25px;
+    
+  }
+   /* character section */
+  .char-block{
+    padding: 50px;
+    border: ridge #fff 10px;
+    border-radius: 25px;
+    
+  }
+  .sbtn{
+    font-family: "wworld";
+    width: 30%;
+    font-size: 3.5rem;
+    margin: 50px auto 20px;
+    border-radius: 35px;
+   
+    
+  }
+   /* movie section css */
+
+   .movie-img{
+    border: ridge #fff 10px;
+    border-radius: 25px;
+  }
+
+  .movie-img-3{
+    border: ridge #fff 10px;
+    border-radius: 25px;
+  }
+  
+  .movie-block{
+    padding: 50px;
+    border: ridge #fff 10px;
+    border-radius: 25px;
+    
+  }
+}
