@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "magicschool2";
+  src: url("fonts/MagicSchoolTwo.ttf")
+    format("truetype");
+  src: url("fonts/MagicSchoolTwo.wof/")
+    format("woff");
+  src: url("fonts/MagicSchoolTwo.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "wworld";
+  src: url("fonts/WizardWorld-Simplified.ttf")
+    format("truetype");
+     
+}
+
+@font-face {
+  font-family: "xefora";
+  src: url("fonts/Xefora-vp34.ttf")
+    format("truetype");
+}
+
+body {
+  background: url("miscellaneous/background11.png");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url("miscellaneous/wand-removebg-preview.png"),
+    auto;
+
+  text-align: center;
+}
+
+a,
+button,
+i {
+  cursor: url("miscellaneous/wand-removebg-preview.png"),
+    auto;
+}
+.navv {
+  border: solid #d9d9d9 3px;
+  margin-top: 20px;
+}
+.nav-link {
+  font-family: "wworld";
+  font-size: 1.7rem;
+  color: white;
+}
+.nav-link:hover {
+  transform: scale(1.15); text-shadow: 0 0 20px white;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.logo-img {
+  width: 130px;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.logo-img:hover {
+  transform: scale(1.15);
+}
+.tline {
+  margin-top: 50px;
+
+  width: 450px;
+}
+hr {
+  margin: 0 auto;
+
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #d9d9d9;
+  opacity: 100;
+}
+.novel-back {
+  margin: 100px auto 50px;
+  width: 340.5px;
+  height: 502px;
+  text-align: center;
+}
+
+.novel1 {
+  width: 300px;
+  height: 478.5px;
+  border-radius: 35px;
+  margin-top: 10px;
+  border: ridge #d9d9d9 10px;
+}
+
+.novel1:hover {
+  box-shadow: 0 0 100px white;
+  transform: scale(1.15);
+
+}
+
+.description {
+  font-family: "xefora";
+  padding: 30px;
+  
+  margin: 0 auto 50px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  font-size: 1.5rem;
+}
+
+.description:hover {
+  box-shadow: 0 0 100px white;
+}
+
+#download {
+  padding: 0 150px;
+  text-align: center;
+}
+.cta-btn {
+  margin: 5% 7% 4% 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 250px;
+  height: 80px;
+  background-color: #d9d9d9;
+  border-style: none;
+  border-radius: 25px;
+  font-family: "magicschool2";
+  font-size: 2rem;
+}
+
+.cta-btn:hover {
+  box-shadow: 0 0 100px white;
+  transform: scale(1.2);
+}
